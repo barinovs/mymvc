@@ -1,5 +1,7 @@
 <?php
 
+require __DIR__ . '/../models/autoloader.php';
+
 class Controller
 {
 

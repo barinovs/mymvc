@@ -1,5 +1,9 @@
 body{background:url(/images/bg/bg-6.png)}
 
+.container {
+    margin-top: 55px;
+}
+
 /* Form Style */
 .form-horizontal{
  background: #fff;

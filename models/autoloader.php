@@ -1,6 +1,6 @@
 <?php
 
-function confDirAutoloader($className) {
+function modelsDirAutoloader($className) {
     // Путь до файла
     $fileName = __DIR__ . DIRECTORY_SEPARATOR . $className . '.php';
     // Если файл существует, то вызываем require и говорим spl-автозагрузчику, что все ок
@@ -13,4 +13,4 @@ function confDirAutoloader($className) {
 }
 
 // Регистрируем нашу функцию автозагрузки
-spl_autoload_register('confDirAutoloader');
+spl_autoload_register('modelsDirAutoloader');
